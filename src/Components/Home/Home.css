@@ -209,10 +209,9 @@ button{
    
    }
 
-
     .inputbar{
-        width: 23rem;
-        margin-top: 7rem;
+        width: 21rem;
+        margin-top: 3rem;
        margin-bottom: 3rem;
     }
 
@@ -246,6 +245,18 @@ button{
 
     .bottomtext{
         display : none;
+    }
+
+    .result{
+        margin: auto;
+        margin-left: 10px;
+        height: 40rem;
+        width: 21rem;
+        overflow-y: scroll;
+    }
+    
+    .result::-webkit-scrollbar{
+        display: none;
     }
     
     
