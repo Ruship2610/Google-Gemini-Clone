@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containermain{
+     width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 10px 16px;
+    padding: 5px ;
+    justify-content: space-between ;
+ } 
+
+.appname{
+    color: grey;
+    font-size: 20px;
+} 
+
+.right{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.advance-icon{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-right: 15px;
+}
+
+.right-text{
+    height: 37px;
+    width: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+    background-color: #dde3ea;
+} 
+
+
+.advancetext{
+    font-size: 13px;
+    color: black;
+}
+
+.user-icon{
+    height: 31.6px;
+    width: 31.6px;
+    border-radius: 50%;
+}  
+
+.homepage{
+    height: 500px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.greet{
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-bottom: 70px;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 450;
+    
+}
+
+.greet span{
+    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #1f1f1f;
+    background-color: #f0f4f9;
+}
+
+.card:hover{
+    background-color: #c4cbd47f;
+}
+
+.cardtext{
+    height: 66px;
+}
+
+
+.bottomicon{
+    /* height: 20px; */
+    width: 35px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    top: 71px;
+    left: 137px;
+}
+
+.inputbar{
+    width : fit-content;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* position: absolute;
+    bottom: 25px;
+    left: 350px; */
+    padding: 18px;
+    border-radius: 50px;
+    background-color: #f0f4f9;
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+    padding-left: 5px;
+    width: 755px;
+    border: none;
+    cursor: text;
+    background-color: #f0f4f9;
+}
+
+.sendicon{
+    height: 24px;
+    width: 24px;
+}
+
+.bottomtext{
+    position: absolute;
+    font-size: 12.5px;
+    bottom: 10px;
+    left: 450px;
+}
+
+.result{
+    margin: auto;
+    height: 35rem;
+    width: 45rem;
+    overflow-y: scroll;
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+.homeicons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.response{
+    display : flex;
+    gap: 1.5rem;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+button{
+    border: none;
+}
+
+@media screen and (max-width:600px){
+
+    .containermain{
+      height: 100vh;
+        width: 100%;
+       background-color: #ffffff;
+       box-sizing: border-box;
+   
+   }
+
+
+    .inputbar{
+        width: 23rem;
+        margin-top: 7rem;
+       margin-bottom: 3rem;
+    }
+
+    .card{
+        height: 15rem;
+        width: fit-content;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .cards::-webkit-scrollbar{
+       display: none;
+    }
+
+    .greet{
+        font-size: 3rem;
+    }
+
+    .cards{
+        width: 20rem;
+        /* margin-top: 5rem;
+        margin-left: 3rem;
+        margin-right: 3rem; */
+        margin: auto;
+        overflow-x: scroll;
+    }
+
+    .bottomicon{
+        display: none;
+    }
+
+    .bottomtext{
+        display : none;
+    }
+    
+    
+}
