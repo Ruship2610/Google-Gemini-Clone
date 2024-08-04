@@ -30,7 +30,7 @@ const Home = (props) => {
             </div>
             <br/>
            <div className="response">
-           <img className='user-icon' src={gemini}></img>
+           <img className='user-icon gemini-rotate' src={gemini}></img>
            {props.result}
            </div>
             </div> :
