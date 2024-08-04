@@ -178,10 +178,10 @@ input{
 }
 
 .bottomtext{
-    position: absolute;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
     font-size: 12.5px;
-    bottom: 10px;
-    left: 450px;
 }
 
 .result{
